@@ -8,7 +8,6 @@ const employerSchema = new mongoose.Schema(
     role: { type: String, require: true },
     phone: { type: Number, require: true },
   },
-  { minimize: false }
 );
 
 const employeeModel =
